@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/cifar10c.py",
+            "console": "integratedTerminal",
+            "args": ["--cfg", "cfgs/cifar10/tent.yaml"]
+        }
+    ]
+}

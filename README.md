@@ -35,16 +35,7 @@ pip install -r requirements.txt
 Usage
 Run ICTTA on CIFAR10-C with a WideResNet-28-10 model:
 
-python
-复制
-python main.py \
-    --dataset cifar10c \
-    --model wideresnet28 \
-    --batch_size 200 \
-    --lr 0.001 \
-    --lambda1 0.5 \
-    --lambda2 1.0 \
-    --severity 5
+
 Reproducing Experiments
 See scripts/ for predefined commands to replicate results on:
 
@@ -52,7 +43,7 @@ CIFAR10-C / ImageNet-C
 
 WideResNet-28-10 / WideResNet-40-2 / ResNet-50
 
-📊 Results
+## 📊 Results
 CIFAR10-C (Severity 5)
 Method	Error Rate (%)	Precision (%)	Recall (%)	F1 (%)
 Source	44.1	66.5	56.4	52.9
@@ -63,21 +54,20 @@ Method	Error Rate (%)	F1 (%)
 Source	82.2	16.0
 TENT	68.5	29.2
 ICTTA	68.1	29.3
-📖 Citation
+## 📖 Citation
 If you find this work useful, please cite:
 
 bibtex
-复制
 @article{ma2024dynamic,
   title={Dynamic Adaptation for Class-Imbalanced Streams: An Imbalanced Continuous Test-Time Framework},
   author={Ma, Wuxi and Yang, Hao},
   journal={arXiv preprint arXiv:XXXX.XXXXX},
   year={2024}
 }
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 We thank the authors of TENT and CTTA for their foundational work.
 
 Dataset credits: CIFAR10-C and ImageNet-C from Hendrycks & Dietterich (2019).

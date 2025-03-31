@@ -3,7 +3,7 @@
 [![GitHub](https://img.shields.io/github/stars/Maxwuxi/ICTTA?style=social)](https://github.com/Maxwuxi/ICTTA)
 
 
-Official implementation of the paper **"Dynamic Adaptation for Class-Imbalanced Streams: An Imbalanced Continuous Test-Time Framework"** (accepted at a top-tier conference).  
+Official implementation of the paper **"Dynamic Adaptation for Class-Imbalanced Streams: An Imbalanced Continuous Test-Time Framework"** (under review the visual journel).  
 **ICTTA** is a novel framework designed to address class imbalance in dynamically evolving test data streams, significantly improving model robustness under continuous domain shifts.
 
 ---

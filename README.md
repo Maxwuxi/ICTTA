@@ -30,12 +30,24 @@ Existing Test-Time Adaptation (TTA) methods often assume balanced test data dist
    ```bash
    git clone https://github.com/Maxwuxi/ICTTA.git
    cd ICTTA
-### Install dependencies:
-pip install -r requirements.txt
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 Usage
 Run ICTTA on CIFAR10-C with a WideResNet-28-10 model:
-
-
+### CIFAR10-to-CIFAR10C-standard task
+```bash
+cd cifar
+# This includes the comparison of all three methods as well as baseline
+bash run_cifar10.sh
+### ImageNet-to-ImageNetC task 
+```bash
+# Tested on RTX3090
+cd imagenet
+bash run.sh
+```
+   
 Reproducing Experiments
 See scripts/ for predefined commands to replicate results on:
 
@@ -64,8 +76,7 @@ bibtex
   journal={arXiv preprint arXiv:XXXX.XXXXX},
   year={2025}
 }
-## 📜 License
-This project is licensed under the MIT License. See LICENSE for details.
+
 
 ## 🙏 Acknowledgements
 We thank the authors of TENT and CTTA for their foundational work.

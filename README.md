@@ -62,7 +62,7 @@ bibtex
   title={Dynamic Adaptation for Class-Imbalanced Streams: An Imbalanced Continuous Test-Time Framework},
   author={Ma, Wuxi and Yang, Hao},
   journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2024}
+  year={2025}
 }
 ## 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
@@ -72,5 +72,5 @@ We thank the authors of TENT and CTTA for their foundational work.
 
 Dataset credits: CIFAR10-C and ImageNet-C from Hendrycks & Dietterich (2019).
 
-Contact: For questions or feedback, email Hao Yang or open an issue.
+Contact: For questions or feedback, email Wuxi Ma or Hao Yang.
 

@@ -71,6 +71,5 @@ This project is licensed under the MIT License. See LICENSE for details.
 We thank the authors of TENT and CTTA for their foundational work.
 
 Dataset credits: CIFAR10-C and ImageNet-C from Hendrycks & Dietterich (2019).
-
-Contact: For questions or feedback, email Wuxi Ma or Hao Yang.
+For questions regarding the code, please contact yanghao@nudt.edu.cn.
 

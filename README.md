@@ -70,4 +70,4 @@ Dataset credits: CIFAR10-C and ImageNet-C from Hendrycks & Dietterich (2019).
 For questions regarding the code, please contact yanghao@nudt.edu.cn.
 ## External data link
 + ImageNet-C [Download](https://zenodo.org/records/2235448)
-+ Cifar-10-C[Download](https://zenodo.org/records/2535967)
++ Cifar-10-C [Download](https://zenodo.org/records/2535967)

@@ -53,16 +53,7 @@ See scripts/ for predefined commands to replicate results on:
 CIFAR10-C / ImageNet-C
 
 WideResNet-28-10、WideResNet-40-2 / ResNet-50
-## Citation
-If you find this work useful, please cite it as:
-```bibtex
-   @article{ma2023dynamic,
-   title={Dynamic Adaptation for Class-Imbalanced Streams: An Imbalanced Continuous Test-Time Framework},
-   author={Wuxi Ma and Hao Yang},
-   journal={The Visual Computer},
-   year={2023}
-   }
-```
+
 ## 🙏 Acknowledgements
 We thank the authors of TENT and CTTA for their foundational work.
 
